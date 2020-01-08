@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "fulltest",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authfulltestafa13da5",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
